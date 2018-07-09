@@ -1,11 +1,20 @@
 @charset "utf-8";
 
 @import 'setting';
-//@import 'base/sanitize';
-//@import 'base/reset';
-//@import 'base/normalize';
+@import 'base/sanitize';
+@import 'utility/clearfix';
+
 @import 'base/mixin';
 @import 'base/base';
+
+@import 'components/header';
+@import 'components/nav';
+@import 'components/table';
+
 @import 'layout/layout';
+@import 'layout/l-container';
+@import 'layout/l-index';
+
+@import 'utility/utility';
 @import 'sprites/icon';
 

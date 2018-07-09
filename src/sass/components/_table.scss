@@ -1,0 +1,31 @@
+.table {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 10px 10px;
+}
+
+.table-inner {
+  width: 100%;
+
+  thead {
+    padding: 0 10px;
+    border-bottom: 1px solid #ddd;
+
+    th {
+      width: 20%;
+      text-align: left;
+      padding: 25px 10px;
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        width: 20%;
+        padding: 25px 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.nav {}
+
+.nav-item {
+  &:not(:last-child) {
+  }
+}
+
+.nav-link {
+  display: block;
+  color: $color-default;
+  padding: 25px 20px;
+  background-color: #fff;
+  transition: background-color 0.1s ease-in-out;
+
+  &:hover {
+    background-color: #f5f7f9;
+  }
+
+  &.is-active {
+    background-color: #f5f7f9;
+  }
+}
